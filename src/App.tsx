@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from "react";
-import logo from "./logo.svg";
+import { useState } from "react";
 import "./App.css";
 import "antd/dist/antd.min.css";
 import {
@@ -100,7 +99,9 @@ function App() {
             </Card>
           </Col>
           <Col span={16}>
-            <Typography.Title level={3}>is it time?</Typography.Title>
+            <Typography.Title level={3}>
+              is it time? {timerResponse ? "YES" : "NO"}
+            </Typography.Title>
             <Typography.Title level={4}>
               it is currently {displayTime.format("hh:mm A")}
             </Typography.Title>

@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import { useEffect, useRef } from "react";
 
 /**
  * I currently do not fully understand this code. I copypasta from:
