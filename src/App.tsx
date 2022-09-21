@@ -54,7 +54,10 @@ function App() {
   }, 1000);
 
   return (
-    <Layout className="App" style={{ height: "100%" }}>
+    <Layout
+      className="App"
+      style={{ height: "100%", backgroundColor: " #282c34" }}
+    >
       <Layout.Content>
         <Row>
           <Col span={8} style={{ padding: "1rem" }}>
